@@ -1,0 +1,338 @@
+[
+  {
+    "id": "phishing-awareness",
+    "title": "Phishing Awareness",
+    "category": "Phishing",
+    "what": "Phishing is a deceptive message (email, SMS, chat, QR code) that tries to make you reveal secrets or take a risky action.",
+    "why": "Most account takeovers and many breaches start with a message that looked routine.",
+    "warning_signs": [
+      "Unexpected sender or look-alike address",
+      "Urgent or threatening tone",
+      "Request for a password or code",
+      "Unexpected attachment or QR code",
+      "Link text that differs from the real destination",
+      "Payment or gift-card request"
+    ],
+    "safe_practices": [
+      "Pause and check the sender address",
+      "Do not enter credentials from a link; open the site yourself",
+      "Verify unusual requests through a known channel",
+      "Use the report-phishing button"
+    ],
+    "if_it_happens": [
+      "Do not click further",
+      "Report it to IT/security",
+      "If you entered a password, change it and tell IT immediately"
+    ]
+  },
+  {
+    "id": "password-security",
+    "title": "Password Security",
+    "category": "Passwords",
+    "what": "Passwords prove identity. Strong ones are long, unique and hard to guess.",
+    "why": "Reused or weak passwords let one leak unlock many accounts.",
+    "warning_signs": [
+      "Same password on many sites",
+      "Short or personal-info passwords",
+      "Passwords stored in notes or spreadsheets"
+    ],
+    "safe_practices": [
+      "Use long passphrases",
+      "Use a password manager",
+      "Unique password per account",
+      "Turn on MFA"
+    ],
+    "if_it_happens": [
+      "Change the password and any reused copies",
+      "Check sign-in activity",
+      "Report suspected exposure"
+    ]
+  },
+  {
+    "id": "mfa",
+    "title": "Multi-Factor Authentication",
+    "category": "MFA",
+    "what": "MFA requires a second proof (app, security key, passkey) in addition to your password.",
+    "why": "A stolen password alone is not enough to sign in. Strong password + MFA is generally safer than a password alone.",
+    "warning_signs": [
+      "Unexpected MFA prompts you did not start",
+      "Requests to read out a code"
+    ],
+    "safe_practices": [
+      "Prefer authenticator apps or security keys",
+      "Consider passkeys/WebAuthn (phishing-resistant)",
+      "Never share one-time codes",
+      "Deny unexpected prompts"
+    ],
+    "if_it_happens": [
+      "Deny the prompt",
+      "Change your password",
+      "Report the prompt flood to IT"
+    ]
+  },
+  {
+    "id": "social-engineering",
+    "title": "Social Engineering",
+    "category": "Social Engineering",
+    "what": "Manipulating people (not machines) into giving access or information, often by impersonation or pressure.",
+    "why": "Attackers exploit trust, urgency and authority because it is often easier than hacking.",
+    "warning_signs": [
+      "Pressure to bypass normal process",
+      "Claims of authority you cannot verify",
+      "Requests for secrets over phone/chat"
+    ],
+    "safe_practices": [
+      "Verify identity through a known number",
+      "Follow standard procedures",
+      "Slow down when pressured"
+    ],
+    "if_it_happens": [
+      "End the conversation",
+      "Report the attempt",
+      "Tell colleagues who may be targeted"
+    ]
+  },
+  {
+    "id": "safe-browsing",
+    "title": "Safe Browsing",
+    "category": "Safe Browsing",
+    "what": "Using the web in ways that reduce exposure to malicious or deceptive sites.",
+    "why": "Browsers are the main gateway for downloads and logins.",
+    "warning_signs": [
+      "Browser security warnings",
+      "Unexpected download prompts",
+      "Look-alike site addresses"
+    ],
+    "safe_practices": [
+      "Keep the browser updated",
+      "Type important addresses yourself",
+      "Download software only from official sources",
+      "Heed browser warnings"
+    ],
+    "if_it_happens": [
+      "Close the tab",
+      "Do not open the download",
+      "Run an antivirus scan and tell IT if something was opened"
+    ]
+  },
+  {
+    "id": "secure-wifi",
+    "title": "Secure Wi-Fi",
+    "category": "Wi-Fi",
+    "what": "Wi-Fi security means using trusted, encrypted networks and protecting your traffic.",
+    "why": "Open networks can expose traffic and imitation networks can mislead you.",
+    "warning_signs": [
+      "Open network with no password",
+      "Two networks with near-identical names",
+      "Unexpected certificate warnings"
+    ],
+    "safe_practices": [
+      "Use WPA2/WPA3 networks you trust",
+      "Use the organization VPN on public Wi-Fi",
+      "Turn off auto-join for public networks",
+      "Change default router passwords"
+    ],
+    "if_it_happens": [
+      "Disconnect",
+      "Change passwords used on that network",
+      "Report if work accounts were used"
+    ]
+  },
+  {
+    "id": "software-updates",
+    "title": "Software Updates",
+    "category": "Safe Browsing",
+    "what": "Updates fix security flaws (vulnerabilities) in your software.",
+    "why": "Attackers commonly target known, unpatched flaws.",
+    "warning_signs": [
+      "Update reminders ignored for weeks",
+      "Unsupported operating system"
+    ],
+    "safe_practices": [
+      "Enable automatic updates",
+      "Restart when asked",
+      "Remove software you no longer use"
+    ],
+    "if_it_happens": [
+      "Update now",
+      "If a device cannot update, tell IT"
+    ]
+  },
+  {
+    "id": "ransomware-awareness",
+    "title": "Ransomware Awareness",
+    "category": "Ransomware",
+    "what": "Ransomware is malware that blocks access to data (often by encryption) and may add data-theft extortion.",
+    "why": "It can cause downtime, data loss and extortion. Prevention and preparation matter most.",
+    "warning_signs": [
+      "Files suddenly renamed or inaccessible",
+      "Ransom notes",
+      "Unexpected macro or attachment prompts"
+    ],
+    "safe_practices": [
+      "Keep offline/tested backups",
+      "Patch systems",
+      "Use least privilege and MFA",
+      "Report suspicious files early"
+    ],
+    "if_it_happens": [
+      "Disconnect from the network per your policy",
+      "Do not pay or negotiate alone",
+      "Call IT/security and follow the incident plan"
+    ]
+  },
+  {
+    "id": "usb-safety",
+    "title": "USB / Removable Media Safety",
+    "category": "Safe Browsing",
+    "what": "Removable media can carry malware between systems.",
+    "why": "Found or shared drives may be deliberately planted.",
+    "warning_signs": [
+      "Unknown USB drives",
+      "Auto-run prompts"
+    ],
+    "safe_practices": [
+      "Do not plug in unknown drives",
+      "Use approved, encrypted media",
+      "Scan media before use"
+    ],
+    "if_it_happens": [
+      "Unplug and hand it to IT",
+      "Report where it was found"
+    ]
+  },
+  {
+    "id": "data-privacy",
+    "title": "Data Privacy",
+    "category": "Privacy",
+    "what": "Protecting personal and sensitive information from misuse or exposure.",
+    "why": "Leaks harm people and can trigger legal duties.",
+    "warning_signs": [
+      "Oversharing on social media",
+      "Sharing files with 'anyone with the link'",
+      "Sending data to wrong recipients"
+    ],
+    "safe_practices": [
+      "Share the minimum data",
+      "Check recipients",
+      "Classify and encrypt sensitive data",
+      "Review app permissions"
+    ],
+    "if_it_happens": [
+      "Recall the message if possible",
+      "Tell your privacy/security contact promptly"
+    ]
+  },
+  {
+    "id": "mobile-security",
+    "title": "Mobile Security",
+    "category": "Mobile Security",
+    "what": "Protecting phones and tablets and the data on them.",
+    "why": "Phones hold email, banking and MFA apps.",
+    "warning_signs": [
+      "Apps requesting excessive permissions",
+      "SMS links from unknown senders",
+      "Unexpected profile install requests"
+    ],
+    "safe_practices": [
+      "Use screen lock and encryption",
+      "Install apps only from official stores",
+      "Keep the OS updated",
+      "Enable find-my-device"
+    ],
+    "if_it_happens": [
+      "Lock/wipe remotely if lost",
+      "Change passwords",
+      "Report to IT"
+    ]
+  },
+  {
+    "id": "remote-work-security",
+    "title": "Remote Work Security",
+    "category": "Safe Browsing",
+    "what": "Working securely away from the office.",
+    "why": "Home networks and shared spaces have fewer protections.",
+    "warning_signs": [
+      "Shared family devices used for work",
+      "Unknown devices on the home network"
+    ],
+    "safe_practices": [
+      "Use managed devices and VPN",
+      "Lock the screen",
+      "Separate work and personal use",
+      "Secure the home router"
+    ],
+    "if_it_happens": [
+      "Report lost devices at once",
+      "Change work credentials if exposed"
+    ]
+  },
+  {
+    "id": "cloud-account-security",
+    "title": "Cloud Account Security",
+    "category": "Passwords",
+    "what": "Protecting accounts and data in cloud services.",
+    "why": "Misconfigured sharing or stolen sessions expose data at scale.",
+    "warning_signs": [
+      "Unfamiliar sign-in alerts",
+      "Files shared publicly by mistake",
+      "Unknown connected apps"
+    ],
+    "safe_practices": [
+      "Enable MFA",
+      "Review sharing settings",
+      "Remove unused app connections",
+      "Use least-privilege roles"
+    ],
+    "if_it_happens": [
+      "Sign out all sessions",
+      "Reset credentials",
+      "Report to your admin"
+    ]
+  },
+  {
+    "id": "incident-reporting",
+    "title": "Incident Reporting",
+    "category": "Incident Reporting",
+    "what": "Telling the right people quickly when something looks wrong.",
+    "why": "Fast reporting limits damage. Reporting a false alarm is always fine.",
+    "warning_signs": [
+      "Suspicious messages",
+      "Lost devices",
+      "Unexpected account activity"
+    ],
+    "safe_practices": [
+      "Know your reporting contact",
+      "Report early and factually",
+      "Do not delete evidence",
+      "Do not investigate on your own"
+    ],
+    "if_it_happens": [
+      "Write down what happened and when",
+      "Report it immediately",
+      "Follow instructions from the response team"
+    ]
+  },
+  {
+    "id": "ai-scam-awareness",
+    "title": "AI-Enabled Scam Awareness",
+    "category": "Social Engineering",
+    "what": "Scams that use AI to imitate voices, faces, or writing style.",
+    "why": "Convincing fakes make urgency and impersonation more believable.",
+    "warning_signs": [
+      "Unexpected voice or video request for money",
+      "Perfect but unusual writing from a 'known' contact",
+      "Pressure to keep it secret"
+    ],
+    "safe_practices": [
+      "Verify via a second, known channel",
+      "Agree a family/team verification phrase",
+      "Follow payment approval procedures"
+    ],
+    "if_it_happens": [
+      "Stop and verify",
+      "Report the attempt",
+      "Contact your bank if money moved"
+    ]
+  }
+]

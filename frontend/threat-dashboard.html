@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SOC Threat Dashboard</title><link rel="stylesheet" href="css/style.css"></head><body>
+<div id="nav"></div><main>
+<h1>SOC Threat Intelligence Dashboard</h1>
+<p class="sub">Observation &rarr; Indicator &rarr; Alert &rarr; Threat &rarr; Incident. A high score is a lead for investigation, not a confirmed compromise.</p>
+<div class="tabs" id="tabs"></div>
+<section id="t-overview"><div id="kpis" class="grid g4"></div><div id="charts" class="grid g3" style="margin-top:12px"></div></section>
+<section id="t-threats" class="hidden"><div class="filters" id="filters"></div><div class="card wrap"><table id="tbl"></table></div>
+ <p><button class="btn alt" id="prev">Prev</button> <button class="btn alt" id="next">Next</button> <span id="pg" class="sub"></span></p></section>
+<section id="t-search" class="hidden"><div class="card"><h2>IOC search (local lookup only - nothing is ever contacted)</h2>
+ <div class="filters"><input id="q" size="50" placeholder="e.g. 198.51.100.25, login-check.invalid, CVE-2026-90001, sha256..."><button class="btn" id="go">Search</button></div><div id="res"></div></div></section>
+<section id="t-alerts" class="hidden"><div class="card wrap"><table id="atbl"></table></div></section>
+<section id="t-attack" class="hidden"><div class="grid g2"><div class="card"><h2>Top ATT&amp;CK tactics</h2><div class="chart"><canvas id="cTac"></canvas></div></div>
+ <div class="card wrap"><h2>Techniques (click for records)</h2><table id="tech"></table><p class="note" id="selected-technique" aria-live="polite">No technique selected.</p></div></div><div class="card wrap" style="margin-top:12px"><h2 id="thead">Select a technique</h2><table id="trec"></table></div><p class="note" id="anote"></p></section>
+<section id="t-vulns" class="hidden"><p class="note">Priority combines CVSS + asset criticality + exposure + exploitation evidence (synthetic). CVSS alone is not enough.</p><div class="card wrap"><table id="vtbl"></table></div></section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="js/common.js"></script><script src="js/dashboard.js"></script></body></html>

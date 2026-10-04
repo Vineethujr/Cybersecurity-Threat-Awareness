@@ -1,0 +1,405 @@
+[
+  {
+    "id": "Q01",
+    "category": "Phishing",
+    "question": "You get an unexpected message urgently asking you to verify your password. What should you do?",
+    "options": {
+      "A": "Verify through an official trusted channel",
+      "B": "Click the link immediately",
+      "C": "Reply with your password",
+      "D": "Forward your credentials to a colleague"
+    },
+    "answer": "A",
+    "explanation": "Legitimate services rarely demand passwords by message. Use an official channel you already trust."
+  },
+  {
+    "id": "Q02",
+    "category": "Phishing",
+    "question": "Which is the strongest sign of a phishing email?",
+    "options": {
+      "A": "Urgent threat plus link to a look-alike domain",
+      "B": "Correct greeting",
+      "C": "Sent on a weekday",
+      "D": "Company logo"
+    },
+    "answer": "A",
+    "explanation": "Urgency combined with a look-alike link is a classic phishing pattern; logos are easy to copy."
+  },
+  {
+    "id": "Q03",
+    "category": "Phishing",
+    "question": "A QR code in an unexpected email asks you to 'confirm your account'. Best action?",
+    "options": {
+      "A": "Scan it quickly",
+      "B": "Do not scan; go to the official site yourself and report it",
+      "C": "Share it with friends",
+      "D": "Scan on a personal phone"
+    },
+    "answer": "B",
+    "explanation": "QR codes hide destinations. Navigate to the known site yourself and report the message."
+  },
+  {
+    "id": "Q04",
+    "category": "Phishing",
+    "question": "You clicked a suspicious link and entered your password. What now?",
+    "options": {
+      "A": "Wait a week",
+      "B": "Delete the email only",
+      "C": "Change the password and tell IT immediately",
+      "D": "Nothing, it's probably fine"
+    },
+    "answer": "C",
+    "explanation": "Fast reporting and password change limit damage."
+  },
+  {
+    "id": "Q05",
+    "category": "Passwords",
+    "question": "Which password approach is best?",
+    "options": {
+      "A": "One strong password everywhere",
+      "B": "A unique long passphrase per account stored in a password manager",
+      "C": "Adding a number each year",
+      "D": "Using your pet's name"
+    },
+    "answer": "B",
+    "explanation": "Unique passphrases prevent one leak from unlocking other accounts."
+  },
+  {
+    "id": "Q06",
+    "category": "Passwords",
+    "question": "Why is password reuse risky?",
+    "options": {
+      "A": "It's slower",
+      "B": "One breach can expose all accounts using it",
+      "C": "It breaks websites",
+      "D": "It isn't risky"
+    },
+    "answer": "B",
+    "explanation": "Attackers try leaked passwords on other services (credential stuffing)."
+  },
+  {
+    "id": "Q07",
+    "category": "Passwords",
+    "question": "What does a password manager do?",
+    "options": {
+      "A": "Removes the need for MFA",
+      "B": "Stores and generates unique passwords securely",
+      "C": "Makes passwords shorter",
+      "D": "Shares passwords with coworkers"
+    },
+    "answer": "B",
+    "explanation": "It creates and stores unique passwords so you need to remember only one strong secret."
+  },
+  {
+    "id": "Q08",
+    "category": "MFA",
+    "question": "What is MFA?",
+    "options": {
+      "A": "Two identical passwords",
+      "B": "A backup",
+      "C": "A firewall",
+      "D": "An extra proof of identity beyond your password"
+    },
+    "answer": "D",
+    "explanation": "MFA adds something you have or are to something you know."
+  },
+  {
+    "id": "Q09",
+    "category": "MFA",
+    "question": "You receive an MFA approval prompt you did not trigger. What do you do?",
+    "options": {
+      "A": "Ignore it forever",
+      "B": "Deny it and change your password, then report",
+      "C": "Share the code with support",
+      "D": "Approve to stop the noise"
+    },
+    "answer": "B",
+    "explanation": "Unexpected prompts can mean your password is compromised (MFA fatigue)."
+  },
+  {
+    "id": "Q10",
+    "category": "MFA",
+    "question": "Which is generally the most phishing-resistant sign-in method?",
+    "options": {
+      "A": "Shared password",
+      "B": "Passkey / security key (WebAuthn)",
+      "C": "SMS code",
+      "D": "Security question"
+    },
+    "answer": "B",
+    "explanation": "Passkeys and security keys are bound to the real site, so fake sites cannot capture them."
+  },
+  {
+    "id": "Q11",
+    "category": "Social Engineering",
+    "question": "A caller claims to be from IT and asks for your one-time code. You should:",
+    "options": {
+      "A": "Provide it",
+      "B": "Provide half the code",
+      "C": "Refuse and verify via the official IT number",
+      "D": "Ask them to email it"
+    },
+    "answer": "C",
+    "explanation": "Never share codes; verify through a known channel."
+  },
+  {
+    "id": "Q12",
+    "category": "Social Engineering",
+    "question": "What is pretexting?",
+    "options": {
+      "A": "Patching software",
+      "B": "A firewall rule",
+      "C": "Encrypting data",
+      "D": "Inventing a believable story to obtain information"
+    },
+    "answer": "D",
+    "explanation": "Attackers craft believable scenarios to gain trust."
+  },
+  {
+    "id": "Q13",
+    "category": "Social Engineering",
+    "question": "Your 'CEO' messages you to buy gift cards urgently and keep it secret. Best action?",
+    "options": {
+      "A": "Buy them quickly",
+      "B": "Ask a coworker to buy them",
+      "C": "Verify through a known channel and report",
+      "D": "Reply asking for card details"
+    },
+    "answer": "C",
+    "explanation": "Urgency plus secrecy plus payment is a red flag. Verify and report."
+  },
+  {
+    "id": "Q14",
+    "category": "Safe Browsing",
+    "question": "Your browser shows a certificate/security warning on a login page. You:",
+    "options": {
+      "A": "Proceed anyway",
+      "B": "Disable the warning",
+      "C": "Leave the page and report it if unexpected",
+      "D": "Enter fake data"
+    },
+    "answer": "C",
+    "explanation": "Warnings often signal interception or a fake site."
+  },
+  {
+    "id": "Q15",
+    "category": "Safe Browsing",
+    "question": "Where should you download software from?",
+    "options": {
+      "A": "File-sharing forums",
+      "B": "Any top search result",
+      "C": "Links in chat messages",
+      "D": "The vendor's official site or trusted store"
+    },
+    "answer": "D",
+    "explanation": "Official sources reduce the chance of trojanized installers."
+  },
+  {
+    "id": "Q16",
+    "category": "Safe Browsing",
+    "question": "Why install software updates promptly?",
+    "options": {
+      "A": "They slow devices",
+      "B": "They change the theme",
+      "C": "They aren't needed",
+      "D": "They fix known security flaws"
+    },
+    "answer": "D",
+    "explanation": "Attackers target known, unpatched vulnerabilities."
+  },
+  {
+    "id": "Q17",
+    "category": "Ransomware",
+    "question": "Which practice best reduces ransomware damage?",
+    "options": {
+      "A": "Disabling updates",
+      "B": "Storing backups on the same computer",
+      "C": "Paying quickly",
+      "D": "Keeping tested offline/immutable backups"
+    },
+    "answer": "D",
+    "explanation": "Good backups allow recovery without paying."
+  },
+  {
+    "id": "Q18",
+    "category": "Ransomware",
+    "question": "Files suddenly become inaccessible with a ransom note. First step?",
+    "options": {
+      "A": "Disconnect per policy and call IT/security",
+      "B": "Pay",
+      "C": "Restart repeatedly",
+      "D": "Delete everything"
+    },
+    "answer": "A",
+    "explanation": "Contain and get the response team involved; do not negotiate alone."
+  },
+  {
+    "id": "Q19",
+    "category": "Ransomware",
+    "question": "Which control limits how far ransomware can spread?",
+    "options": {
+      "A": "Least privilege and network segmentation",
+      "B": "Everyone as administrator",
+      "C": "Shared passwords",
+      "D": "Open file shares"
+    },
+    "answer": "A",
+    "explanation": "Restricting access limits lateral movement."
+  },
+  {
+    "id": "Q20",
+    "category": "Privacy",
+    "question": "Before sending a file with personal data you should:",
+    "options": {
+      "A": "Use personal email",
+      "B": "Post the link publicly",
+      "C": "Confirm the recipient and share only the minimum needed",
+      "D": "Send to everyone"
+    },
+    "answer": "C",
+    "explanation": "Data minimization and recipient checks prevent leaks."
+  },
+  {
+    "id": "Q21",
+    "category": "Privacy",
+    "question": "What does 'anyone with the link' sharing mean?",
+    "options": {
+      "A": "It is encrypted",
+      "B": "It expires today",
+      "C": "Anyone who has the link can open it",
+      "D": "Only your team can open it"
+    },
+    "answer": "C",
+    "explanation": "Links can be forwarded; use named-people sharing for sensitive files."
+  },
+  {
+    "id": "Q22",
+    "category": "Privacy",
+    "question": "Which is good privacy practice for apps?",
+    "options": {
+      "A": "Ignore permissions",
+      "B": "Grant all permissions",
+      "C": "Use the same email everywhere",
+      "D": "Review and limit permissions to what's needed"
+    },
+    "answer": "D",
+    "explanation": "Least privilege applies to app permissions too."
+  },
+  {
+    "id": "Q23",
+    "category": "Wi-Fi",
+    "question": "On public Wi-Fi you should:",
+    "options": {
+      "A": "Share your hotspot password",
+      "B": "Use a VPN or avoid sensitive logins",
+      "C": "Disable device updates",
+      "D": "Do banking without protection"
+    },
+    "answer": "B",
+    "explanation": "Public networks are untrusted; use protection."
+  },
+  {
+    "id": "Q24",
+    "category": "Wi-Fi",
+    "question": "Two networks share almost the same name at a cafe. You:",
+    "options": {
+      "A": "Ask staff which is official",
+      "B": "Ignore it",
+      "C": "Join the strongest",
+      "D": "Join both"
+    },
+    "answer": "A",
+    "explanation": "Imitation ('evil twin') networks exist; confirm the name."
+  },
+  {
+    "id": "Q25",
+    "category": "Wi-Fi",
+    "question": "Which home Wi-Fi setting is safest?",
+    "options": {
+      "A": "Open network",
+      "B": "WEP",
+      "C": "Default admin password",
+      "D": "WPA2/WPA3 with a strong passphrase"
+    },
+    "answer": "D",
+    "explanation": "Modern encryption and a changed admin password improve security."
+  },
+  {
+    "id": "Q26",
+    "category": "Mobile Security",
+    "question": "Which is a good mobile security habit?",
+    "options": {
+      "A": "No screen lock",
+      "B": "Rooting the phone",
+      "C": "Screen lock plus updates from official stores",
+      "D": "Sideloading apps"
+    },
+    "answer": "C",
+    "explanation": "Basic hygiene prevents most mobile compromises."
+  },
+  {
+    "id": "Q27",
+    "category": "Mobile Security",
+    "question": "You receive an SMS link claiming your parcel is delayed. You:",
+    "options": {
+      "A": "Tap it",
+      "B": "Reply with card details",
+      "C": "Forward it",
+      "D": "Ignore/delete and check the carrier's official app"
+    },
+    "answer": "D",
+    "explanation": "SMS phishing ('smishing') is common; use official apps."
+  },
+  {
+    "id": "Q28",
+    "category": "Mobile Security",
+    "question": "Your phone is lost. First action?",
+    "options": {
+      "A": "Wait",
+      "B": "Buy a new one only",
+      "C": "Post about it",
+      "D": "Use remote lock/wipe and report"
+    },
+    "answer": "D",
+    "explanation": "Remote lock and prompt reporting protect data."
+  },
+  {
+    "id": "Q29",
+    "category": "Incident Reporting",
+    "question": "When should you report something suspicious?",
+    "options": {
+      "A": "Never",
+      "B": "After a week",
+      "C": "Only when sure",
+      "D": "As soon as you notice it, even if unsure"
+    },
+    "answer": "D",
+    "explanation": "Early reports help; false alarms are welcome."
+  },
+  {
+    "id": "Q30",
+    "category": "Incident Reporting",
+    "question": "What information helps most in a report?",
+    "options": {
+      "A": "Only your opinion",
+      "B": "What happened, when, and what you did or clicked",
+      "C": "Nothing",
+      "D": "Screenshots only"
+    },
+    "answer": "B",
+    "explanation": "Facts and timing let responders act quickly."
+  },
+  {
+    "id": "Q31",
+    "category": "Incident Reporting",
+    "question": "After a suspected incident you should NOT:",
+    "options": {
+      "A": "Preserve evidence",
+      "B": "Delete emails and logs to 'clean up'",
+      "C": "Note the time",
+      "D": "Tell the security team"
+    },
+    "answer": "B",
+    "explanation": "Deleting evidence hampers the investigation."
+  }
+]
